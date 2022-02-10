@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webcam Capture</title>
+    <style>
+        #container {
+            margin: 0px auto;
+            width: 500px;
+            height: 375px;
+            border: 10px #333 solid;
+        }
+        #video {
+            width: 500px;
+            height: 375px;
+            background-color: #666;
+        }
+        </style>
+</head>
+<body>
+    <div id="container">
+
+        <center><video autoplay="true" id="video" width="640" height="480" autoplay></video></center>
+    </div>
+    
+</body>
+<script src="webcam.js" ></script>
+</html>
